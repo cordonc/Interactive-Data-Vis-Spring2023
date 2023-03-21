@@ -9,21 +9,25 @@ body {
 h1 {
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 4em;
-  margin: 0.25em 0;
-  text-align: end;
+  margin: 0.5em 1em;
+  padding-bottom: .25em;
+  text-align: center;
   color: rgb(75, 75, 151);
 }
 
 h3 {
   font-family: 'Rubik', sans-serif;
   font-size: 2em;
-  margin: 0.25em 0;
-  text-align: end;
+  margin: 0.25em .5em;
+  padding-bottom: 2em;
+  text-align: center;
   color: rgb(110, 212, 80);
 }
 
 p {
+  font-family: 'Rubik', sans-serif;
   font-size: 1.25em;
+  text-align: left;
 }
 
 td {
@@ -35,17 +39,35 @@ td {
 
 label {
     display: block;
-    font: 1rem 'Rubik Mono One', sans-serif;
+    font: 1rem 'Rubik', sans-serif;
     padding-top: 2em;
 }
 
-input,
-label {
-    margin: 0.4rem 0;
+datalist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: vertical-lr;
+  width: 200px;
+
 }
 
+option {
+  font-family: 'Rubik', sans-serif;
+  padding: 0;
+
+}
+
+input[type="range"] {
+  appearance: slider-horizontal;
+  width: 200px;
+  margin: 0;
+}
+
+
+
 .fit-picture {
-  position:relative;
-  left: 400px;
+  position: relative;
+  left: 65%;
 
 }
