@@ -1,23 +1,62 @@
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 16px;
   padding: 1em;
+  background-color: rgba(198, 208, 178, 0.57);
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
+  text-align: center;
+  color: rgb(255, 242, 242);
+  margin: 2em 4em;
+
 }
 
 h3 {
   font-size: 2em;
   margin: 0.25em 0;
+  text-align: center;
+  color:azure;
+  margin: 1em 8em;
 }
 
 p {
-  font-family: serif;
+  font-family: 'Inconsolata';
   font-size: 1em;
+  bottom: 1rem;
+  left: 3rem;
+  z-index: 1;
+  position: fixed;
+  
+
 }
 
+
+a:-webkit-any-link {
+  color: rgba(251, 199, 102, 0.957);
+  cursor: pointer;
+  text-decoration-line: none;
+
+}
+a:hover {
+  color: hotpink;
+}
+
+
+.main {
+  margin: 100px auto;
+  text-align: center;
+  margin: 4em 16em;
+}
+
+button {
+  padding: 20px;
+  background: rgb(181, 181, 182);
+  font-family: "Inconsolata";
+  font-size: 1em;
+  color: rgb(245, 230, 230);
+}
 section {
   padding: 2em 0;
 }
