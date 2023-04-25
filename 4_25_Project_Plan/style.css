@@ -48,17 +48,17 @@ body {
 
   p.subheading {
     font-family: 'Castoro Titling', cursive;
-    font-size: 1.15em;
-    margin-left: 25em;
-    margin-right: 25em;
+    font-size: 1em;
+    margin-left: 35%;
+    margin-right: 35%;
     color: rgb(218, 219, 199);
     text-align: center;
     line-height: 1.65em;
   }
 
   #center {
-    display: block;
-      width: 100vw;
+      display: block;
+      width: 95vw;
       height: 100vh;
       object-fit: scale-down;
       }
